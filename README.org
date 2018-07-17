@@ -1,0 +1,6 @@
+#+TITLE: org-status
+
+* Next up
+
++ Investigate how to iterate sections as a tree
++ Extract text for each section
