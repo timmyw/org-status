@@ -1,5 +1,9 @@
 #+TITLE: org-status
 
+Scan an org-mode file(s) for dated paragraphs within a specific period
+and list them out - i.e. pull dated status updates out of a set of
+files.
+
 * Next up
 
 + Investigate how to iterate sections as a tree
