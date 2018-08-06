@@ -4,7 +4,14 @@ Scan an org-mode file(s) for dated paragraphs within a specific period
 and list them out - i.e. pull dated status updates out of a set of
 files.
 
+Starting with running through a single file, but will eventually
+extend to run through all of the ~org-agenda-files~ files.
+
 * Next up
 
-+ Investigate how to iterate sections as a tree
-+ Extract text for each section
++ [ ] Work out how to interrogate the property drawer of a section (if
+  it exists)
++ [ ] Use either a regexp of the section text to find date, or the
+  property drawer "MODIFIED" property (if that exists) to select text.
++ [X] Investigate how to iterate sections as a tree
++ [X] Extract text for each section
